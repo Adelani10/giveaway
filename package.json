@@ -1,0 +1,16 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/style.css -o ./public/main.css",
+    "watch": "tailwindcss -i ./src/style.css -o ./public/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
